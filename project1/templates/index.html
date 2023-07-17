@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="static/seats.js" defer></script>
+        <link rel="stylesheet" href="static/seats.css">     
+    </head>
+    
+    <body>
+    <div id="top">
+        <img src="static/header.gif" class="orange">
+        <a>
+            <img src="static/ej-transparent-x.png" class="overimage">
+        </a>
+    </div>
+    <div id="anotherone">
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4" id="lhs"> 
+                <h2>Outbound</h2>
+                <div>For each passenger, please select from the available seats.
+                </div>
+                <div id="passengerList"></div>    
+        </div> 
+        <div class="col-md-4" id="center">
+        <img src="static/320-nose.png" id="head">
+        <div id="room1"></div>
+        <div class="seatrow" row="row_1">
+            <div class="block">
+                <div class="seat" id="1A"></div>
+                <div class="seat" id="1B"></div>
+                <div class="seat" id="1C"></div> 
+            </div>
+            1
+            <div class="block">
+                <div class="seat" id="1D"></div>
+                <div class="seat" id="1E"></div>
+                <div class="seat" id="1F"></div>
+            </div>
+        </div>
+        <div id="room2"></div>
+        <div class="seatrow" row="row_2">
+            <div class="block">
+                <div class="seat" id="2A"></div>
+                <div class="seat" id="2B"></div>
+                <div class="seat" id="2C"></div>
+            </div>
+            2
+            <div class="block">
+                <div class="seat" id="2D"></div>
+                <div class="seat" id="2E"></div>
+                <div class="seat" id="2F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_3">
+            <div class="block">
+                <div class="seat" id="3A"></div>
+                <div class="seat" id="3B"></div>
+                <div class="seat" id="3C"></div>
+            </div>
+            3
+            <div class="block">
+                <div class="seat" id="3D"></div>
+                <div class="seat" id="3E"></div>
+                <div class="seat" id="3F"></div>
+            </div>
+        </div>
+        <div id="room3"></div>
+        <div class="seatrow" row="row_4">
+            <div class="block">
+                <div class="seat" id="4A"></div>
+                <div class="seat" id="4B"></div>
+                <div class="seat" id="4C"></div>
+            </div>
+            4
+            <div class="block">
+                <div class="seat" id="4D"></div>
+                <div class="seat" id="4E"></div>
+                <div class="seat" id="4F"></div>
+            </div>
+        </div>
+
+        <div class="seatrow" row="row_5">
+            <div class="block">
+                <div class="seat" id="5A"></div>
+                <div class="seat" id="5B"></div>
+                <div class="seat" id="5C"></div>
+            </div>
+            5
+            <div class="block">
+                <div class="seat" id="5D"></div>
+                <div class="seat" id="5E"></div>
+                <div class="seat" id="5F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_6">
+            <div class="block">
+                <div class="seat" id="6A"></div>
+                <div class="seat" id="6B"></div>
+                <div class="seat" id="6C"></div>
+            </div>
+            6
+            <div class="block">
+                <div class="seat" id="6D"></div>
+                <div class="seat" id="6E"></div>
+                <div class="seat" id="6F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_7">
+            <div class="block">
+                <div class="seat" id="7A"></div>
+                <div class="seat" id="7B"></div>
+                <div class="seat" id="7C"></div>
+            </div>
+            7
+            <div class="block">
+                <div class="seat" id="7D"></div>
+                <div class="seat" id="7E"></div>
+                <div class="seat" id="7F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_8">
+            <div class="block">
+                <div class="seat" id="8A"></div>
+                <div class="seat" id="8B"></div>
+                <div class="seat" id="8C"></div>
+            </div>
+            8
+            <div class="block">
+                <div class="seat" id="8D"></div>
+                <div class="seat" id="8E"></div>
+                <div class="seat" id="8F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_9">
+            <div class="block">
+                <div class="seat" id="9A"></div>
+                <div class="seat" id="9B"></div>
+                <div class="seat" id="9C"></div>
+            </div>
+            9
+            <div class="block">
+                <div class="seat" id="9D"></div>
+                <div class="seat" id="9E"></div>
+                <div class="seat" id="9F"></div>
+            </div>
+        </div>
+        <div id="room4"></div>
+        <div class="seatrow" row="row_10">
+            <div class="block">
+                <div class="seat" id="10A"></div>
+                <div class="seat" id="10B"></div>
+                <div class="seat" id="10C"></div>
+            </div>
+            10
+            <div class="block">
+                <div class="seat" id="10D"></div>
+                <div class="seat" id="10E"></div>
+                <div class="seat" id="10F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_11">
+            <div class="block">
+                <div class="seat" id="11A"></div>
+                <div class="seat" id="11B"></div>
+                <div class="seat" id="11C"></div>
+            </div>
+            11
+            <div class="block">
+                <div class="seat" id="11D"></div>
+                <div class="seat" id="11E"></div>
+                <div class="seat" id="11F"></div>
+            </div>
+        </div>
+        <div id="room5"></div>
+        <div class="seatrow" row="row_12">
+            <div class="block">
+                <div class="seat" id="12A"></div>
+                <div class="seat" id="12B"></div>
+                <div class="seat" id="12C"></div>
+            </div>
+            12
+            <div class="block">
+                <div class="seat" id="12D"></div>
+                <div class="seat" id="12E"></div>
+                <div class="seat" id="12F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_13">
+            <div class="block">
+                <div class="seat" id="13A"></div>
+                <div class="seat" id="13B"></div>
+                <div class="seat" id="13C"></div>
+            </div>
+            13
+            <div class="block">
+                <div class="seat" id="13D"></div>
+                <div class="seat" id="13E"></div>
+                <div class="seat" id="13F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_14">
+            <div class="block">
+                <div class="seat" id="14A"></div>
+                <div class="seat" id="14B"></div>
+                <div class="seat" id="14C"></div>
+            </div>
+            14
+            <div class="block">
+                <div class="seat" id="14D"></div>
+                <div class="seat" id="14E"></div>
+                <div class="seat" id="14F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_15">
+            <div class="block">
+                <div class="seat" id="15A"></div>
+                <div class="seat" id="15B"></div>
+                <div class="seat" id="15C"></div>
+            </div>
+            15
+            <div class="block">
+                <div class="seat" id="15D"></div>
+                <div class="seat" id="15E"></div>
+                <div class="seat" id="15F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_16">
+            <div class="block">
+                <div class="seat" id="16A"></div>
+                <div class="seat" id="16B"></div>
+                <div class="seat" id="16C"></div>
+            </div>
+            16
+            <div class="block">
+                <div class="seat" id="16D"></div>
+                <div class="seat" id="16E"></div>
+                <div class="seat" id="16F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_17">
+            <div class="block">
+                <div class="seat" id="17A"></div>
+                <div class="seat" id="17B"></div>
+                <div class="seat" id="17C"></div>
+            </div>
+            17
+            <div class="block">
+                <div class="seat" id="17D"></div>
+                <div class="seat" id="17E"></div>
+                <div class="seat" id="17F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_18">
+            <div class="block">
+                <div class="seat" id="18A"></div>
+                <div class="seat" id="18B"></div>
+                <div class="seat" id="18C"></div>
+            </div>
+            18
+            <div class="block">
+                <div class="seat" id="18D"></div>
+                <div class="seat" id="18E"></div>
+                <div class="seat" id="18F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_19">
+            <div class="block">
+                <div class="seat" id="19A"></div>
+                <div class="seat" id="19B"></div>
+                <div class="seat" id="19C"></div>
+            </div>
+            19
+            <div class="block">
+                <div class="seat" id="19D"></div>
+                <div class="seat" id="19E"></div>
+                <div class="seat" id="19F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_20">
+            <div class="block">
+                <div class="seat" id="20A"></div>
+                <div class="seat" id="20B"></div>
+                <div class="seat" id="20C"></div>
+            </div>
+            20
+            <div class="block">
+                <div class="seat" id="20D"></div>
+                <div class="seat" id="20E"></div>
+                <div class="seat" id="20F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_21">
+            <div class="block">
+                <div class="seat" id="21A"></div>
+                <div class="seat" id="21B"></div>
+                <div class="seat" id="21C"></div>
+            </div>
+            21
+            <div class="block">
+                <div class="seat" id="21D"></div>
+                <div class="seat" id="21E"></div>
+                <div class="seat" id="21F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_22">
+            <div class="block">
+                <div class="seat" id="22A"></div>
+                <div class="seat" id="22B"></div>
+                <div class="seat" id="22C"></div>
+            </div>
+            22
+            <div class="block">
+                <div class="seat" id="22D"></div>
+                <div class="seat" id="22E"></div>
+                <div class="seat" id="22F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_23">
+            <div class="block">
+                <div class="seat" id="23A"></div>
+                <div class="seat" id="23B"></div>
+                <div class="seat" id="23C"></div>
+            </div>
+            23
+            <div class="block">
+                <div class="seat" id="23D"></div>
+                <div class="seat" id="23E"></div>
+                <div class="seat" id="23F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_24">
+            <div class="block">
+                <div class="seat" id="24A"></div>
+                <div class="seat" id="24B"></div>
+                <div class="seat" id="24C"></div>
+            </div>
+            24
+            <div class="block">
+                <div class="seat" id="24D"></div>
+                <div class="seat" id="24E"></div>
+                <div class="seat" id="24F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_25">
+            <div class="block">
+                <div class="seat" id="25A"></div>
+                <div class="seat" id="25B"></div>
+                <div class="seat" id="25C"></div>
+            </div>
+            25
+            <div class="block">
+                <div class="seat" id="25D"></div>
+                <div class="seat" id="25E"></div>
+                <div class="seat" id="25F"></div>
+            </div>
+        </div>
+        <div class="seatrow" row="row_26">
+            <div class="block">
+                <div class="seat" id="26A"></div>
+                <div class="seat" id="26B"></div>
+                <div class="seat" id="26C"></div>
+            </div>
+            26
+            <div class="block">
+                <div class="seat" id="26D"></div>
+                <div class="seat" id="26E"></div>
+                <div class="seat" id="26F"></div>
+            </div>
+        </div>
+
+        <img src="static/320-tail.png" id="head"> 
+       </div>
+       <div class="col-md-4" id="rhs">
+            <div class="basket">
+            Basket £<span id=basketTotal></span>
+            </div>
+            <div id="pricebd">
+                <div class="link"><a herf="#">Pirce Breakdown</a></div>
+            </div>
+            <div id="outbound"></div>
+            <div id="inbound"></div>
+            <div id="skip"></div>
+            
+        </div>
+        <div id="overlay"></div>
+        </div>
+        
+    </div>
+    </body>
+</html>

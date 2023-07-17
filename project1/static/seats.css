@@ -1,0 +1,211 @@
+#rhs{
+    display: inline-block;
+    
+}
+#lhs{
+   
+    display: inline-block;
+    vertical-align: top;
+   
+}
+#center{
+   
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.orange{
+    width: 100%;
+    height: 60px;
+}
+.top{
+    position: relative;
+}
+.overimage{
+    position: absolute;
+    top: 23px;
+    left: 30px;
+}
+.block{
+    display:inline-block;
+}
+.seat.available.occupied{
+    background-image: url(/static/seat-occupied-by-adult.png);
+    cursor: pointer;
+}
+.seat.available{
+    background-image: url(/static/seat-available.png);
+    cursor: pointer;
+}
+.seat.unavailable{
+    background-image: url(/static/seat-unavailable.png);
+    cursor: not-allowed;
+}
+.seat{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-size: cover;
+}
+.currentPassenger{
+    cursor: pointer;
+    background-image: url(/static/control-icon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+}
+#passengerSeat_0,#passengerSeat_1{
+    padding-left: 100px;
+}
+#icon{
+    height: 40px;
+    width: 60px;
+    padding-left: 18px;
+}
+.plane{
+    height: 23px;
+    width: 23px;
+}
+.plane2,#seatno1,#seatno2{
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.line {
+    width: 230px;
+    border: 1px solid #C4C4C4;
+    display:inline-block;
+    margin-bottom: 5px;
+  }
+.amount,#amount1,#amount2{
+    float: right;
+    margin-right: 25px;
+}
+.amount3{
+    float: right;
+    margin-right: 100px;
+}
+h2{
+    font-size: 25px;
+}
+h4,h3{
+    padding-left: 20px;
+    font-size: large;
+}
+li{
+    list-style-type: none;
+}
+#bagicon{
+    height: 70px;
+    width: 70px;
+}
+#bagicon1{
+    height: 50px;
+    width: 50px;
+}
+#tickicon{
+    height: 18px;
+    width: 18px;
+}
+.leftbag{
+    float: left;
+    position: relative;
+    padding-top: 10px;
+}
+legend{
+    font-size: 17px;
+}
+
+.seatrow{
+    background-color: black;
+    color: white;
+    width: 310px;
+    padding-left: 15px; 
+}
+#room1,#room2,#room3,#room4,#room5{
+    background-color: black;
+    width: 310px;
+}
+
+#head{
+    width: 310px;
+}
+#outbound{
+    background-color: #e4e4e4;
+}
+#inbound{
+    background-color: #f2f2f2;
+}
+.basket{
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 20px;
+    background-color: #f2f2f2;
+}
+.link{
+    font-size: small;
+    color: orangered;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+#skip{
+    padding-top: 20px;
+    padding-left: 60%;
+    height: 50px;
+    background-color:  #e4e4e4;
+}
+#anotherskip{
+    padding-left: 60%;
+}
+#skiplink1,#skiplink3{
+    font-size: large;
+    color: orangered;
+    cursor: pointer;
+}
+#skiplink2,#skiplink4{
+    font-size: large;
+    color: orangered;
+    cursor: pointer;
+    display: none;
+}
+#skiplink3:hover{
+    text-decoration: underline;
+}
+#skiplink4:hover{
+    text-decoration: underline;
+}
+#skiplink1:hover{
+    text-decoration: underline;
+}
+#skiplink2:hover{
+    text-decoration: underline;
+}
+#anotherone{
+    height: 50px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#anotheronetwo{
+    font-size: large;
+    font-weight: bold;
+    padding-left: 200px;
+}
+#anotheronethree{
+    padding-left: 200px;
+}
+#overlay{
+    width: 430px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 12px;
+    display: none;
+
+}
+#bdprice{
+    padding-left: 20px;
+}
